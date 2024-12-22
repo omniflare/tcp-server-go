@@ -30,10 +30,11 @@ This project consists of two main components:
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone http://github.com/omniflare/tcp-server-go
 
 # Start both server and client
-make run
+cd client && npm run dev
+cd server && go build && ./server
 ```
 
 ### Available Chat Commands
